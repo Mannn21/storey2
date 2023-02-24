@@ -1,0 +1,9 @@
+.icon {
+    color: black;
+}
+
+.icon:hover {
+    color: #455db4;
+    transform: scale(1.15);
+    transition: all ease-in-out .2s;
+}
