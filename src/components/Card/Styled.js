@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+
 
 export const CardWrapper = styled.div`
     display: flex;
@@ -86,6 +86,3 @@ export const ItemDesc = styled.p`
     color: black;
 `
 
-export const Link = styled(Link)`
-    text-decoration: none;
-`
