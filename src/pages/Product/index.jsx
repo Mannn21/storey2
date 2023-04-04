@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from '../../components/Navbar/Navbar'
-import Card from '../../components/Card/Card'
-import Footer from '../../components/Footer/Footer'
+import Card from '../../components/Card'
 import {
     ProductWrapper,
     Content
@@ -10,12 +8,10 @@ import {
 const Product = () => {
     return(
         <ProductWrapper>
-            <Navbar />
             <Content>
                 <Card />
                 <Card />
             </Content>
-            <Footer />
         </ProductWrapper>
     )
 }

@@ -9,7 +9,8 @@ export const Container = styled.div`
     height: 450px;
     margin-top: 75px;
     box-sizing: border-box;
-    background-color: white;
+    background: url(${props => props.src});
+    background-size: cover;
     padding-top: 5px;
 `
 

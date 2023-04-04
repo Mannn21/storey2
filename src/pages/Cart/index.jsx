@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 import {
   Container,
   Content,
@@ -70,7 +68,7 @@ const Cart = () => {
 
   return (
     <Container>
-      <Navbar />
+      {/* <Navbar /> */}
       <Content>
         <Title> <Line /> CART PAGE <Line /></Title>
         <TableWrapper>
@@ -132,7 +130,7 @@ const Cart = () => {
           </Link>
         </Navigate>
       </Content>
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   );
 };

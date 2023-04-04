@@ -1,8 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Payment } from "../../list/Payment";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 import {
   Container,
   Content,
@@ -75,7 +73,6 @@ const Checkout = () => {
 
   return (
     <Container>
-      <Navbar />
       <Content>
         <Title>Checkout Product</Title>
         <TableWrapper>
@@ -173,7 +170,6 @@ const Checkout = () => {
             }
         </Navigate>
       </Content>
-      <Footer />
     </Container>
   );
 };

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const DetailWrapper = styled.div`
     background-color: #e4e6f0;
     margin: 0;
-    padding: 0;
+    padding: 0 0 120px 0;
 `
 
 export const Content = styled.div`

@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "React App",
   "name": "Create React App Sample",
+=======
+  "short_name": "Storey",
+  "name": "Storey App",
+>>>>>>> 07c61824 (update)
   "icons": [
     {
       "src": "favicon.ico",

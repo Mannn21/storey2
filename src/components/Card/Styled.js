@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const CardWrapper = styled.div`
     display: flex;
@@ -83,4 +84,8 @@ export const ItemDesc = styled.p`
     letter-spacing: 1.1px;
     text-align: center;
     color: black;
+`
+
+export const Link = styled(Link)`
+    text-decoration: none;
 `

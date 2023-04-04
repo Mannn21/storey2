@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
 import { 
     ActionWrapper,
     DetailWrapper,
@@ -43,7 +41,6 @@ const Detail = () => {
 
     return(
         <DetailWrapper>
-            <Navbar />
             <Content>
                 <Title>Detail Page</Title>
                 <DetailProduct>
@@ -74,7 +71,6 @@ const Detail = () => {
                     <h1>Recomend Page</h1>
                 </RecomendWrapper>
             </Content>
-            <Footer />
         </DetailWrapper>
     )
 }

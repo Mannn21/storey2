@@ -1,13 +1,13 @@
-import Bca from '../assets/BCA.png'
-import Bni from '../assets/BNI.png'
-import Bri from '../assets/BRI.png'
-import Btn from '../assets/BTN.png'
-import DANA from '../assets/DANA.png'
-import Gopay from '../assets/GoPay.png'
-import LinkAja from '../assets/LinkAja.png'
-import Mandiri from '../assets/Mandiri.png'
-import Ovo from '../assets/OVO.png'
-import COD from '../assets/COD.png'
+import Bca from '../assets/BCA.webp'
+import Bni from '../assets/BNI.webp'
+import Bri from '../assets/BRI.webp'
+import Btn from '../assets/BTN.webp'
+import DANA from '../assets/DANA.webp'
+import Gopay from '../assets/GoPay.webp'
+import LinkAja from '../assets/LinkAja.webp'
+import Mandiri from '../assets/Mandiri.webp'
+import Ovo from '../assets/OVO.webp'
+import COD from '../assets/COD.webp'
 
 export const Payment = [
     {

@@ -1,14 +1,14 @@
 export const Sosmed = [
     {
         title: "WhatsApp",
-        location: "https://web.whatsapp.com/"
+        location: `https://wa.me/${process.env.REACT_APP_WHATSAPP}`
     },
     {
         title: "Instagram",
-        location: "https://www.instagram.com/"
+        location: `https://www.instagram.com/${process.env.REACT_APP_INSTAGRAM}`
     },
     {
-        title: "Facebook",
-        location: "https://m.facebook.com/"
+        title: "Email",
+        location: `mailto:${process.env.REACT_APP_EMAIL}`
     }
 ]
