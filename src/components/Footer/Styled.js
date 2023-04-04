@@ -30,7 +30,7 @@ export const FooterText = styled.div`
 
 export const FooterName = styled.h2`
     color: #2c365a;
-    font-size: 26px;
+    font-size: 27px;
     letter-spacing: 3px;
     font-weight: 800;
 `
