@@ -15,7 +15,7 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 481px) and (max-width: 768px) {
         height: 140px;
-        padding: 15px 5px;
+        padding: 15px 10px;
     }
 `
 
@@ -23,6 +23,7 @@ export const FooterText = styled.div`
     padding: 10px;
 
     @media only screen and (max-width: 480px) {
+        margin-top: -10px;
         width: 70%;
     }
 `
