@@ -7,7 +7,7 @@ import {
   DescWrapper,
   ImageWrapper,
   ItemCategories,
-  ItemDesc,
+  ItemRating,
   ItemImage,
   ItemPrice,
   ItemTitle,
@@ -30,7 +30,11 @@ const Card = () => {
               </ImageWrapper>
               <ItemTitle className={`${styled.textBreak}`}>{item.title}</ItemTitle>
               <ItemPrice>$ {item.price}</ItemPrice>
+<<<<<<< HEAD
               <ItemDesc className={`${styled.textBreak}`}>{item.desc}</ItemDesc>
+=======
+              <ItemRating>{item.rating.rate} / {item.rating.count}</ItemRating>
+>>>>>>> 160050ae (fix responsive)
             </DescWrapper>
           </ItemWrapper>
         </Link>

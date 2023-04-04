@@ -7,8 +7,7 @@ import {
     Card,
     CardLine,
     TitleCard,
-    TextCard,
-    Image
+    ImageItem
 } from './Styled'
 
 const Feature = () => {
@@ -18,9 +17,8 @@ const Feature = () => {
                 return (
                     <AboutIcon key={index}>
                         <Card>
-                            <Image src={icon.image} alt={icon.title} className="image-card"/>
+                            <ImageItem src={icon.image} alt={icon.title} className="image-card"/>
                             <TitleCard>{icon.title}</TitleCard>
-                            <TextCard>{icon.text}</TextCard>
                         </Card>
                         {index !== FeatureList.length -1 && <CardLine />}
                     </AboutIcon>

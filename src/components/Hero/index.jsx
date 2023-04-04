@@ -6,8 +6,8 @@ import {
     HeroButton,
     HeroText,
     HeroImage,
-    Container,
-    HeroImageWrapper
+    HeroImageWrapper,
+    Container
 } from './Styled'
 import Image from '../../assets/hero-1-new.png'
 import Banner from '../../assets/hero.webp'

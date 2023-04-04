@@ -11,67 +11,58 @@ export const Container = styled.div`
     box-sizing: border-box;
     background: url(${props => props.src});
     background-size: cover;
-    padding-top: 5px;
+    padding-top: 2px;
 
-    @media only screen and (max-width: 480px) {
-        width: 100%;
+    @media screen and (max-width: 480px) {
+        height: 30vh;
+        justify-content: space-evenly;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
         height: 40vh;
+        justify-content: space-evenly;
     }
-
-    @media only screen and (max-width: 850px) and (min-width: 481px) {
-        width: 100%;
-        height: 38vh;
-    }
-
 `
 
 export const HeroImageWrapper = styled.div`
     height: 100%;
-    width: 43%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
 
-    @media only screen and (min-width: 481px) and (max-width: 850px){
-        width: 50%;
-        height: 100%;
+    @media screen and (max-width: 480px) {
+        width: 45%;
     }
 `
 
-export const HeroImage = styled.img`
+export const HeroImageWrapper = styled.div`
     height: 100%;
     width: 60%;
 
-    @media only screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         width: 100%;
-        height: 100%;
     }
 
-    @media only screen and (min-width: 481px) and (max-width: 850px){
-        width: 85%;
-        height: 100%;
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        width: 95%;
     }
 `
 
 export const HeroDetail = styled.div`
     height: 100%;
-    width: 57%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px 5px;
 
-    @media only screen and (max-width: 480px) {
-        gap: 12px;
-        padding: 10px 8px;
-    }
-
-    @media only screen and (min-width: 481px) and (max-width: 850px){
-        width: 50%;
-        height: 100%;
+    @media screen and (max-width: 480px) {
+        width: 55%;
+        padding: 6px 3px;
     }
 `
 
@@ -81,13 +72,14 @@ export const HeroDesc = styled.h3`
     margin-bottom: 2px;
     letter-spacing: 1.2px;
 
-    @media only screen and (max-width: 480px) {
-        font-size: 13px;
-        text-align: center;
-        letter-spacing: 1.2px;
-        margin-top: -15px;
+    @media screen and (max-width: 480px) {
+        font-size: 11px;
+        letter-spacing: 1.1px;
     }
 
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        font-size: 17px;   
+    }
 `
 
 export const HeroText = styled.h3`
@@ -95,11 +87,13 @@ export const HeroText = styled.h3`
     margin-bottom: 30px;
     margin-top: 10px;
 
-    @media only screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 13px;
         text-align: center;
-        margin-bottom: 2px;
-        letter-spacing: 1.4px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        text-align: center;   
     }
 `
 
@@ -111,12 +105,8 @@ export const HeroButton = styled.span`
     padding: 10px 25px;
     letter-spacing: 1.2px;
 
-    @media only screen and (max-width: 480px) {
-        background-color: #2c365a;
-        color: white;
-        font-size: 17px;
-        font-weight: 500;
-        padding: 7px 20px;
-        letter-spacing: 1.2px;
+    @media screen and (max-width: 480px) {
+        padding: 4px 13px;
+        font-size: 16px;
     }
 `

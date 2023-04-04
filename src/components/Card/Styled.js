@@ -7,6 +7,7 @@ export const CardWrapper = styled.div`
     justify-content: center;
     align-items: center;
     gap: 40px 30px;
+<<<<<<< HEAD
 
 
     @media only screen and (max-width: 480px) {
@@ -16,6 +17,9 @@ export const CardWrapper = styled.div`
     @media only screen and (min-width: 481px) and (max-width: 768px) {
         gap: 28px 30px;
     }
+=======
+    padding: 20px 0 40px 0;
+>>>>>>> 160050ae (fix responsive)
 `
 
 export const ItemWrapper = styled.div`
@@ -24,7 +28,7 @@ export const ItemWrapper = styled.div`
     justify-content: flex-start;
     gap: 7px;
     align-items: center;
-    height: 320px;
+    height: 280px;
     width: 200px;
     border-radius: 8px;
     padding: 5px;
@@ -125,7 +129,7 @@ export const ItemPrice = styled.span `
     color: green;
 `
 
-export const ItemDesc = styled.p`
+export const ItemRating = styled.span`
     font-size: 14px;
     letter-spacing: 1.1px;
     text-align: center;

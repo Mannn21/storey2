@@ -1,27 +1,28 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    margin-top: 30px;
+    margin-top: 5px;
     background-color: transparent !important;
-    height: 250px;
+    height: 180px;
     width: 100%;
 
-    @media only screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
+        height: 140px;
+        margin-top: 20px;
         width: 100%;
-        height: 40vh;
     }
-`
+    `
 
 export const AboutIconWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
-    @media only screen and (max-width: 480px) {
-        width: 100%;
-        height: 40vh;
-        padding: 10px 5px 0 3px;
+    
+    @media screen and (max-width: 480px) {
+        background: white;
+        border-radius: 20px;
+        justify-content: space-around;
     }
 `
 
@@ -33,10 +34,12 @@ export const AboutIcon = styled.div`
     padding: 10px;
     gap: 8px;
 
-
-    @media only screen and (max-width: 480px) {
-        padding: 3px;
-        gap: 4px;
+    @media screen and (max-width: 480px) {
+        justify-content: center;
+        padding: 2px;
+        gap: 3px;
+        width: 20%;
+        height: 100%;
     }
 `
 
@@ -48,8 +51,17 @@ export const Card = styled.div`
     padding: 10px;
     gap: 8px;
 
-    @media only screen and (max-width: 480px) {
-        padding: 10px 6px 10px 3px;
+    @media screen and (max-width: 480px) {
+        padding: 6px;
+        gap: 5px;
+    }
+`
+
+export const Image = styled.img`
+
+    @media screen and (max-width: 480px) {
+        width: 55px;
+        height: 60px;
     }
 `
 
@@ -57,24 +69,24 @@ export const CardLine = styled.hr`
     width: 1.1px;
     background-color: rgba(102, 102, 102, .6);
     height: 120px;
+    margin-left: 130px;
 
-
-    @media only screen and (max-width: 480px) {
-        height: 230px;
+    @media screen and (max-width: 480px) {
+        position: relative;
+        border: 1px solid blue;
+        margin: auto;
+        top: 10px;
     }
 `
 
 export const TitleCard = styled.span`
     font-size: 20px;
     font-weight: 500;
+    letter-spacing: 1.2px;
 
-    @media only screen and (max-width: 480px) {
-        font-size: 16px;
-        font-weight: 500;
+    @media screen and (max-width: 480px) {
+        font-size: 13px;
         text-align: center;
-        display: inline-block;
-        width: 66%;
-        margin: auto;
     }
 `
 
@@ -90,7 +102,7 @@ export const TextCard = styled.p`
         margin-left: -3px;
     }
 `
-export const Image = styled.img`
+export const ImageItem = styled.img`
     @media only screen and (max-width: 480px) {
         width: 60%;
     }

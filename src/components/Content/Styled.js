@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContentWrapper = styled.div`
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 0 50px;
 
     @media only screen and (max-width: 480px) {
