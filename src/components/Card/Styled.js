@@ -10,7 +10,7 @@ export const CardWrapper = styled.div`
 
 
     @media only screen and (max-width: 480px) {
-        gap: 30px 15px;
+        gap: 30px 16px;
     }
 `
 
