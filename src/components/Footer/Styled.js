@@ -13,7 +13,7 @@ export const Container = styled.div`
     align-items: center;
 
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (min-width: 480px) and (max-height: 768px) {
         height: 140px;
         padding: 15px 20px;
     }
