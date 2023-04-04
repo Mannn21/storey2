@@ -36,7 +36,7 @@ export const ItemWrapper = styled.div`
 
     @media (max-width: 768px) {
         /* width: calc(50% - 20px); */
-        width: 180px;
+        width: 190px;
         margin: 10px;
     }
     
