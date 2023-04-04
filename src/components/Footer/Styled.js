@@ -27,7 +27,7 @@ export const FooterText = styled.div`
     }
 
     @media only screen and (min-width: 481px) and (max-width: 768px) {
-        margin-top: -10px;
+        margin-top: -11px;
     }
 `
 
