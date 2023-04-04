@@ -23,8 +23,11 @@ export const FooterText = styled.div`
     padding: 10px;
 
     @media only screen and (max-width: 480px) {
-        margin-top: -10px;
         width: 70%;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+        margin-top: -10px;
     }
 `
 
