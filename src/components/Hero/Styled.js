@@ -38,7 +38,7 @@ export const HeroImageWrapper = styled.div`
     }
 `
 
-export const HeroImageWrapper = styled.div`
+export const HeroImage = styled.img`
     height: 100%;
     width: 60%;
 

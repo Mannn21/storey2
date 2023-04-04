@@ -5,8 +5,8 @@ import {
     HeroDesc,
     HeroButton,
     HeroText,
-    HeroImage,
     HeroImageWrapper,
+    HeroImage,
     Container
 } from './Styled'
 import Image from '../../assets/hero-1-new.png'
