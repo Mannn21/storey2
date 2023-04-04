@@ -10,7 +10,7 @@ export const CardWrapper = styled.div`
 
 
     @media only screen and (max-width: 480px) {
-        gap: 30px 14px;
+        gap: 30px 15px;
     }
 `
 
@@ -26,7 +26,6 @@ export const ItemWrapper = styled.div`
     padding: 5px;
     background-color: #fff;
     box-sizing: border-box;
-    border: 1px solid blue;
     
     &:hover {
         cursor: pointer;
