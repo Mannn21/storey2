@@ -6,6 +6,10 @@ export const ContentWrapper = styled.div`
 
     @media only screen and (max-width: 480px) {
         padding: 30px 5px;
+    
+    }
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        padding: 30px 5px;
     }
 
 `
