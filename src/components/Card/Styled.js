@@ -40,7 +40,7 @@ export const ItemWrapper = styled.div`
     }
     
     @media (max-width: 480px) {
-        width: 140px;
+        width: 180px;
         margin: 0px;
 
         &:hover {
