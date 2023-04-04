@@ -26,6 +26,7 @@ export const ItemWrapper = styled.div`
     padding: 5px;
     background-color: #fff;
     box-sizing: border-box;
+    border: 1px solid blue;
     
     &:hover {
         cursor: pointer;
