@@ -6,7 +6,8 @@ import {
     HeroButton,
     HeroText,
     HeroImage,
-    Container
+    Container,
+    HeroImageWrapper
 } from './Styled'
 import Image from '../../assets/hero-1-new.png'
 import Banner from '../../assets/hero.webp'
@@ -14,11 +15,11 @@ import Banner from '../../assets/hero.webp'
 const Hero = () => {
     return (
         <Container src={Banner}>
-            <HeroDetail>
+            <HeroImageWrapper>
                 <HeroImage src={Image} alt="heroImage" />
-            </HeroDetail>
+            </HeroImageWrapper>
             <HeroDetail>
-                <HeroDesc>Kami menyediakan produk berkualitas dan harga yang terjangkau.</HeroDesc>
+                <HeroDesc>Menyediakan produk berkualitas dan harga yang terjangkau.</HeroDesc>
                 <HeroText>Temukan berbagai produk kami</HeroText>
                 <Link to='/product' style={{ textDecoration: "none" }}>
                     <HeroButton>Disini</HeroButton>

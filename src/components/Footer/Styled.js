@@ -11,10 +11,20 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+
+    @media only screen and (max-width: 480px) {
+        height: 140px;
+        padding: 15px 20px;
+    }
 `
 
 export const FooterText = styled.div`
     padding: 10px;
+
+    @media only screen and (max-width: 480px) {
+        width: 70%;
+    }
 `
 
 export const FooterName = styled.h2`
@@ -27,11 +37,19 @@ export const FooterName = styled.h2`
 export const FooterSpan = styled.span`
     letter-spacing: 1.3px;
     font-size: 18px;
-    fotn-weight: 600;
+    font-weight: 600;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 15px;
+    }
 ` 
 
 export const SosmedWrapper = styled.div`
     padding: 10px;
+
+    @media only screen and (max-width: 480px) {
+        width: 35%;
+    }
 `
 
 export const WrapperItem = styled.ul`

@@ -27,7 +27,7 @@ const Footer = () => {
     <Container>
       <FooterText>
         <FooterName>Storey</FooterName>
-        <FooterSpan>Menyediakan produk terbaik</FooterSpan>
+        <FooterSpan>Sedia produk terbaik</FooterSpan>
       </FooterText>
       <SosmedWrapper>
         <WrapperItem>

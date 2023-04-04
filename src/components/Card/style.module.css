@@ -1,0 +1,29 @@
+.textBreak {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+  }
+  
+  .textBreak::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 480px) {
+    .textBreak::before {
+      display: none;
+    }
+  }
+  
+  .textBreak::before {
+    width: 0.1em;
+  }
+  
+  .textBreak {
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  

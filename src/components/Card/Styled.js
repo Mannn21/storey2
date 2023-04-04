@@ -7,6 +7,11 @@ export const CardWrapper = styled.div`
     justify-content: center;
     align-items: center;
     gap: 40px 30px;
+
+
+    @media only screen and (max-width: 480px) {
+        gap: 30px 14px;
+    }
 `
 
 export const ItemWrapper = styled.div`
@@ -20,11 +25,29 @@ export const ItemWrapper = styled.div`
     border-radius: 8px;
     padding: 5px;
     background-color: #fff;
-
+    box-sizing: border-box;
+    
     &:hover {
         cursor: pointer;
         transform: scale(1.05);
         transition: all ease-in-out .2s;
+    }
+
+
+    @media (max-width: 768px) {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+    
+    @media (max-width: 480px) {
+        width: 140px;
+        margin: 0px;
+
+        &:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+        transition: all ease-in-out .2s;
+    }
     }
 `
 
@@ -49,18 +72,38 @@ export const ImageWrapper = styled.div`
     justify-content: center;
     align-items: center;
     padding: 10px;
+
+    @media only screen and (max-width: 480px) {
+        width: 100px;
+        height: 90px;
+        padding: 4px 0;
+    }
+
 `
 
 export const ItemImage = styled.img`
     height: 120px;
     width: 130px;
+
+    @media only screen and (max-width: 480px) {
+        width: 100%;
+        height: 60px;
+    }
+
 `
 export const ItemTitle = styled.h2`
     font-size: 15px;
     margin: 4px 8px;
     text-align: center;
-    letter-spacing: 1.1px;
+    letter-spacing: 1.5px;
     color: black;
+
+    @media only screen and (max-width: 480px) {
+        padding-top: 2px;
+        width: 100%;
+        height: 60px;
+        font-size: 14px;
+    }
 `
 
 export const ItemCategories = styled.span`
@@ -83,5 +126,6 @@ export const ItemDesc = styled.p`
     letter-spacing: 1.1px;
     text-align: center;
     color: black;
+    box-sizing: border-box;
 `
 

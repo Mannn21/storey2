@@ -13,6 +13,7 @@ import {
   ItemTitle,
   ItemWrapper
 } from "./Styled";
+import styled from './style.module.css'
 
 const Card = () => {
   const Product = () => {
@@ -27,9 +28,9 @@ const Card = () => {
               <ImageWrapper>
                 <ItemImage src={item.image} alt={item.title} />
               </ImageWrapper>
-              <ItemTitle>{item.title}</ItemTitle>
+              <ItemTitle className={`${styled.textBreak}`}>{item.title}</ItemTitle>
               <ItemPrice>$ {item.price}</ItemPrice>
-              <ItemDesc>{item.desc}</ItemDesc>
+              <ItemDesc className={`${styled.textBreak}`}>{item.desc}</ItemDesc>
             </DescWrapper>
           </ItemWrapper>
         </Link>
