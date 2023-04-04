@@ -35,12 +35,13 @@ export const ItemWrapper = styled.div`
 
 
     @media (max-width: 768px) {
-        width: calc(50% - 20px);
+        /* width: calc(50% - 20px); */
+        width: 180px;
         margin: 10px;
     }
     
     @media (max-width: 480px) {
-        width: 180px;
+        width: 140px;
         margin: 0px;
 
         &:hover {
