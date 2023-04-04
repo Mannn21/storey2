@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "../../product.json";
+import { Link } from "react-router-dom";
 import {
   CardWrapper,
   CategoryWrapper,
@@ -10,8 +11,7 @@ import {
   ItemImage,
   ItemPrice,
   ItemTitle,
-  ItemWrapper,
-  Link
+  ItemWrapper
 } from "./Styled";
 
 const Card = () => {
