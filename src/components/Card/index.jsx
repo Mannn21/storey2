@@ -18,7 +18,7 @@ const Card = () => {
   const Product = () => {
     return Item.products.map((item, index) => {
       return (
-        <Link key={index} to="/product/detail">
+        <Link key={index} style={{ textDecoration: "none" }} to="/product/detail">
           <ItemWrapper>
             <CategoryWrapper>
               <ItemCategories>{item.category}</ItemCategories>
