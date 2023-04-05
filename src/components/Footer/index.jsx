@@ -8,7 +8,8 @@ import {
     SosmedItem,
     SosmedLink,
     SosmedWrapper,
-    WrapperItem
+    WrapperItem,
+    // Icon
 } from './Styled';
 import styled from './index.module.css'
 
@@ -18,6 +19,7 @@ const Footer = () => {
       return (
         <SosmedItem key={index}>
           <SosmedLink href={item.location} target="blank" className={styled.sosmed}> {item.title} </SosmedLink>
+          {/* <Icon src={item.icon} color={item.color}/> */}
         </SosmedItem>
       );
     });

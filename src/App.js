@@ -6,8 +6,9 @@ import Detail from './pages/Detail';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Wishlist from './pages/Wishlist';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Header from './components/Header';
 // import Login from './pages/Login/Login'
 // import Register from './pages/Register/Register'
 
@@ -15,7 +16,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Header />
       <Routes>
         <Route exact path='/' element={<Home />}/>
         {/* <Route exact path='/login' element={<Login />}/>

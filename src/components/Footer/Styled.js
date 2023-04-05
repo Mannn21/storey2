@@ -12,6 +12,10 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    @media only screen and (max-width: 480px) {
+        padding: 8px;
+        height: 110px;
+    }
 
     @media only screen and (min-width: 481px) and (max-width: 768px) {
         height: 140px;
@@ -36,6 +40,10 @@ export const FooterName = styled.h2`
     font-size: 27px;
     letter-spacing: 3px;
     font-weight: 800;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 24px;
+    }
 `
 
 export const FooterSpan = styled.span`
@@ -44,7 +52,7 @@ export const FooterSpan = styled.span`
     font-weight: 600;
 
     @media only screen and (max-width: 480px) {
-        font-size: 15px;
+        font-size: 13px;
     }
 ` 
 
@@ -60,7 +68,11 @@ export const WrapperItem = styled.ul`
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: center
+    align-items: center;
+
+    @media only screen and (max-width: 480px) {
+        gap: 10px;
+    }
 `
 
 export const SosmedItem = styled.li`
@@ -76,4 +88,12 @@ export const SosmedLink = styled.a`
     &:hover {
         color: #455db4;
     }
+
+    @media only screen and (max-width: 480px) {
+        font-size: 14px;
+    }
+`
+
+export const Icon = styled.img`
+    background: ${props => props.color};
 `

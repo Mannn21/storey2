@@ -16,10 +16,12 @@ export const Container = styled.div`
     @media screen and (max-width: 480px) {
         height: 30vh;
         justify-content: space-evenly;
+        margin-top: 20px;
     }
 
     @media screen and (min-width: 481px) and (max-width: 767px) {
         height: 40vh;
+        margin-top: 20px;
         justify-content: space-evenly;
     }
 `
